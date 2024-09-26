@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font: "Poppins", system-ui;
+    --blue: #234659;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: var(--font);
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.background img{
+    width: 100vw;
+}
+
+.presentation{
+    padding: 5% 10%;
+}
+
+.presentation-text{
+    font-weight: 500;
+    color: var(--blue);
+    font-style: italic;
+}
+
+.blue-section{
+    background-color: var(--blue);
+    padding: 5% 0;
+    color: rgb(184, 181, 181);
+}
+
+.container-plan{
+    padding: 5% 10%;
+    display: flex;
+    gap: 10%;
+    list-style: none; 
+}
+
+.container-list{
+    padding: 4% 0;
+}
+
+.title{
+    padding: 0 20px 5% 20px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.title-blue{
+    padding-bottom: 5%;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.sub-title{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.conquest{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conquest .title{
+    text-align: center;
+    font-size: 30px;
+    color: var(--blue);
+}
+
+.conquest .sub-title{
+    margin: 0 15%;
+    color: var(--blue);
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+
+.car{
+    width: 50%;
+    padding: 0 0 5% 0;
+}
+
+.immense-img{
+    width: 50%;
+    padding: 0 0 5% 0;
+}
+
+.conquest-montemor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conquest-montemor .sub-title{
+    margin: 0 20%;
+}
+
+video{
+    margin-bottom: 5%;
+}
+
+.tutorial{
+    width: 100vw;
+}
+
+footer{
+    background-color: var(--blue);
+    padding: 3% 3% 0 3%;
+}
+
+.buttons{
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    background-color: #D9D9D9 ;
+    padding: 1%;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button img{
+    width: 20%;
+}
+
+.button a{
+    color: black;
+    font-style: bold;
+    font-size: 90%;
+    font-weight: 500;
+}
+
+
+.button:hover{
+    background-color:#868686;
+    transition: 0.8s ease;
+}
+
+.credits{
+    font-weight: 200;
+    color: grey;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.credits a{
+    text-decoration: underline;
+    color: gray;
+}
+
+.CNPJ{
+    color: gray;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.guiga-peixoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.continuation .title{
+    color: var(--blue);
+    text-align: center;
+}
+
+.continuation .sub-title{
+    margin: 0 20%;
+    color: var(--blue);
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+
+.video{
+    margin-bottom: 10%;
+}
+
+.motorcade .title{
+    color: var(--blue);
+    text-align: center;
+}
+
+.motorcade .sub-title{
+    margin: 0 20%;
+    color: var(--blue);
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+
+.motorcade img{
+    width: 50%;
+    padding: 0 0 5% 0;
+}
+
+video{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;   
+}
+
+.motorcade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.statements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.statements .title{
+    color: var(--blue);
+    text-align: center;
+}
+
+.alemao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.alemao .title{
+    color: var(--blue);
+    text-align: center;
+}
+
+.rec{
+    margin-bottom: 20%;
+}
+
+@media(max-width: 1161px){
+    .container-plan{
+        display: block;
+    }
+
+    .video{
+        width: 40%;
+    }
+}
+
+@media(max-width: 753px){
+    .button a{
+        font-size: 70%;
+    }
+    
+}
+
+@media(max-width: 587px){
+    .button a{
+        font-size: 50%;
+    }
+    .sub-title{
+        margin: 0;
+    }
+    
+}
+
+@media(max-width: 500px){
+    .sub-title{
+        margin: 0;
+    }
+
+    .conquest .sub-title{
+        margin: 10%;
+    }
+
+    .continuation .sub-title{
+        margin: 10%;
+    }
+
+    .car{
+        width: 80%;
+    }
+
+    .immense-img{
+        width: 80%;
+    }
+
+    video{
+        width: 80%;
+    }
+
+    .conquest-montemor h2{
+        margin: 0 2%;
+    }
+    
+    .buttons{
+        gap: 5%;
+        font-size: 10px;
+    }
+
+    .button a{
+        font-size: 70%;
+    }
+
+    .credits{
+        font-size: 10px;
+    }
+
+    .CNPJ{
+        font-size: 10px;
+    }
+
+    .video{
+        width: 80%;
+    }
+    
+    .motorcade .sub-title{
+        margin: 10%;
+    }
+
+    .motorcade img{
+        width: 80%;
+    }
+}
